@@ -1,4 +1,4 @@
-const quotes = [
+ const quotes = [
     "The best way to predict the future is to create it. — Peter Drucker",
     "Success is not final, failure is not fatal: It is the courage to continue that counts. — Winston Churchill",
     "The only way to do great work is to love what you do. — Steve Jobs",
@@ -21,18 +21,19 @@ const quotes = [
     "Everything you’ve ever wanted is on the other side of fear. — George Addair"
   ];
   
+const button=document.querySelector('button');
+button.addEventListener('mouseover',()=>{
 
 
-function generatQuote(){  
 const text = document.getElementById("quote");
 
 
 const index = Math.floor(Math.random()*quotes.length);
 text.textContent = quotes[index];
-}
+})
 
 
-setInterval(generatQuote,2000);
+
 
 
 //  Chnage the background color in every 5 second

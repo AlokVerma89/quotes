@@ -30,6 +30,15 @@ body {
     font-style: italic;
     background:#c9ffc7;
     border-radius: 5px;
+  } 
+  button{
+    background-color: #007bff;
+    color: #f9f4f4;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
   }
   
 
